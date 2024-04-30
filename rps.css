@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+h1{
+    background-color: rgb(7, 7, 71);
+    color: aqua;
+    height: 5rem;
+    line-height: 5rem;
+    
+}
+.choice{
+    height: 165px;
+    width: 165px;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choices{
+    margin-top: 5rem;
+    display: flex; /*isse teeno images line me aagyi*/ 
+    justify-content: center; /*isse teeno images centre me shift ho jayngi*/
+    align-items: center;
+    gap: 3rem;
+}
+.choice:hover{
+    cursor: pointer;
+    background-color: black;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 3rem;
+}
+#user-score , #comp-score{
+    font-size: 3rem;
+}
+.msg-container{
+    margin-top: 5rem;
+}
+#msg{
+    background-color: black;
+    color: aqua;
+    font-size: 3rem;
+    display: inline;
+     padding: 1rem;    /*isse msg(khelo bhyii) ke aas pas thoda black box bad gaya */
+    border-radius: 1rem;
+}
+#msg:hover{
+    background-color: aqua;
+    color: black;
+}
+
